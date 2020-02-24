@@ -911,12 +911,12 @@
     react-lifecycles-compat "^3.0.4"
     warning "^3.0.0"
 
-"@rematch/core@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@rematch/core/-/core-1.0.6.tgz#84677e62111f7d720c3ec552c1f9916353f4cbc3"
-  integrity sha512-xz7tA3lJvMHbRXkKcjc4/fbTX3X7GjcfPojXq40Qdw5caF3B5tmu9lslpK9lcOhPk/nDeDqdF2WIrVQrFZAbRA==
+"@rematch/core@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@rematch/core/-/core-1.4.0.tgz#686ce814e1cf125029c5e9fba23ef3ab7c3eb2a7"
+  integrity sha512-1zy9cTYxbvDHP0PwIL1QqkwagCEnqA0uWMmPf8v2BYvLi2OsxIfX1xiV+vCP3sdJAjjZ0b9+IbSmj0DL2MEgLQ==
   dependencies:
-    redux "4.0.0"
+    redux "^4.0.5"
 
 "@svgr/core@^2.4.1":
   version "2.4.1"
@@ -8237,18 +8237,10 @@ recursive-readdir@2.2.2:
   dependencies:
     minimatch "3.0.4"
 
-redux@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/redux/-/redux-4.0.0.tgz#aa698a92b729315d22b34a0553d7e6533555cc03"
-  integrity sha512-NnnHF0h0WVE/hXyrB6OlX67LYRuaf/rJcbWvnHHEPCF/Xa/AZpwhs/20WyqzQae5x4SD2F9nPObgBh2rxAgLiA==
-  dependencies:
-    loose-envify "^1.1.0"
-    symbol-observable "^1.2.0"
-
-redux@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/redux/-/redux-4.0.1.tgz#436cae6cc40fbe4727689d7c8fae44808f1bfef5"
-  integrity sha512-R7bAtSkk7nY6O/OYMVR9RiBI+XghjF9rlbl5806HJbQph0LJVHZrU5oaO4q70eUKiqMRqm4y07KLTlMZ2BlVmg==
+redux@^4.0.1, redux@^4.0.5:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/redux/-/redux-4.0.5.tgz#4db5de5816e17891de8a80c424232d06f051d93f"
+  integrity sha512-VSz1uMAH24DM6MF72vcojpYPtrTUu3ByVWfPL1nPfVRb5mZVTve5GnNCUV53QM/BZ66xfWrm0CTWoM+Xlz8V1w==
   dependencies:
     loose-envify "^1.4.0"
     symbol-observable "^1.2.0"
