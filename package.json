@@ -7,7 +7,7 @@
     "@rematch/core": "^1.0.6",
     "axios": "^0.18.0",
     "react": "^16.6.3",
-    "react-color": "^2.13.8",
+    "react-color": "^2.19.3",
     "react-confetti": "^2.0.2",
     "react-dom": "^16.6.3",
     "react-github-corners": "^0.2.1",
